@@ -1,0 +1,32 @@
+# Makefile for the HotDrink parser module.
+
+include $(MAKEDIR)/Makefile.common
+include $(MAKEDIR)/Makefile.js
+
+##################################################
+# mandatory configuration
+
+TITLE := hotdrink-parser
+
+##################################################
+# optional configuration
+
+MAIN := $(TITLE).js
+MAINPLUS := $(TITLE)-plus.js
+
+SRCDIR := lib
+SOURCES := \
+	parsec.js \
+	expr_parser.js \
+	model_parser.js \
+	view_parser.js
+
+HEADERS := \
+  lib/utility/debug.m4.js
+
+OBJDIR := build
+
+THIRD_PARTY_SOURCES := \
+
+DOCDIR := doc
+

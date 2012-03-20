@@ -1,0 +1,31 @@
+# Makefile for HotDrink tests.
+
+include $(MAKEDIR)/Makefile.common
+include $(MAKEDIR)/Makefile.js
+
+##################################################
+# mandatory configuration
+
+TITLE := hotdrink-parser-test
+
+##################################################
+# optional configuration
+
+MAIN := $(TITLE).js
+MAINPLUS := $(TITLE)-plus.js
+
+SRCDIR := test/qunit
+SOURCES := \
+  common/patterns.js \
+	test/patterns.js \
+	common/circle.js \
+	parser/model.js
+
+HEADERS := \
+
+OBJDIR := build
+
+THIRD_PARTY_SOURCES := \
+
+DOCDIR := doc
+
