@@ -11,9 +11,6 @@ TITLE := hotdrink-parser-test
 ##################################################
 # optional configuration
 
-MAIN := $(TITLE).js
-MAINPLUS := $(TITLE)-plus.js
-
 SRCDIR := test/qunit
 SOURCES := \
   common/patterns.js \
@@ -22,10 +19,4 @@ SOURCES := \
 	parser/model.js
 
 HEADERS := \
-
-OBJDIR := build
-
-THIRD_PARTY_SOURCES := \
-
-DOCDIR := doc
 

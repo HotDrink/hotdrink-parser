@@ -11,9 +11,6 @@ TITLE := hotdrink-parser
 ##################################################
 # optional configuration
 
-MAIN := $(TITLE).js
-MAINPLUS := $(TITLE)-plus.js
-
 SRCDIR := lib
 SOURCES := \
 	parsec.js \
@@ -23,10 +20,4 @@ SOURCES := \
 
 HEADERS := \
   lib/utility/debug.m4.js
-
-OBJDIR := build
-
-THIRD_PARTY_SOURCES := \
-
-DOCDIR := doc
 
